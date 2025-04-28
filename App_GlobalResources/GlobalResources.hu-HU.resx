@@ -1,0 +1,1283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SyndicateModule.Action" xml:space="preserve">
+    <value>Szindikátus</value>
+  </data>
+  <data name="ExportModule.Action" xml:space="preserve">
+    <value>Tartalom exportálása</value>
+  </data>
+  <data name="ImportModule.Action" xml:space="preserve">
+    <value>Tartalom importálása</value>
+  </data>
+  <data name="OnlineHelp.Action" xml:space="preserve">
+    <value>Online Súgó</value>
+  </data>
+  <data name="ModuleHelp.Action" xml:space="preserve">
+    <value>Súgó</value>
+  </data>
+  <data name="ModuleSettings.Action" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="DeleteModule.Action" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="PrintModule.Action" xml:space="preserve">
+    <value>Nyomtatás</value>
+  </data>
+  <data name="ClearCache.Action" xml:space="preserve">
+    <value>Frissítés</value>
+  </data>
+  <data name="MoveTop.Action" xml:space="preserve">
+    <value>Fent</value>
+  </data>
+  <data name="MoveUp.Action" xml:space="preserve">
+    <value>Fel</value>
+  </data>
+  <data name="MoveDown.Action" xml:space="preserve">
+    <value>Le</value>
+  </data>
+  <data name="MoveBottom.Action" xml:space="preserve">
+    <value>Lent</value>
+  </data>
+  <data name="MovePane.Action" xml:space="preserve">
+    <value>Címzett</value>
+  </data>
+  <data name="MoveRoot.Action" xml:space="preserve">
+    <value>Mozgatás</value>
+  </data>
+  <data name="//Admin.String" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="//Host.String" xml:space="preserve">
+    <value>Házigazda</value>
+  </data>
+  <data name="BannerType.Banner.String" xml:space="preserve">
+    <value>Transzparens</value>
+  </data>
+  <data name="BannerType.MicroButton.String" xml:space="preserve">
+    <value>MicroGomb</value>
+  </data>
+  <data name="BannerType.Button.String" xml:space="preserve">
+    <value>Gomb</value>
+  </data>
+  <data name="BannerType.Block.String" xml:space="preserve">
+    <value>Block</value>
+  </data>
+  <data name="BannerType.Skyscraper.String" xml:space="preserve">
+    <value>Felhőkarcoló</value>
+  </data>
+  <data name="BannerType.Text.String" xml:space="preserve">
+    <value>Szöveg</value>
+  </data>
+  <data name="BannerType.Script.String" xml:space="preserve">
+    <value>Forgatókönyv</value>
+  </data>
+  <data name="View.Permission" xml:space="preserve">
+    <value>Modul megtekintése</value>
+  </data>
+  <data name="Edit.Permission" xml:space="preserve">
+    <value>Modul szerkesztése</value>
+  </data>
+  <data name="View Tab.Permission" xml:space="preserve">
+    <value>Oldal megtekintése</value>
+  </data>
+  <data name="Edit Tab.Permission" xml:space="preserve">
+    <value>Oldal szerkesztése</value>
+  </data>
+  <data name="View Folder.Permission" xml:space="preserve">
+    <value>Nyissa meg a Fájlokat a mappában</value>
+  </data>
+  <data name="Write to Folder.Permission" xml:space="preserve">
+    <value>Írjon a mappába</value>
+  </data>
+  <data name="Browse Folder.Permission" xml:space="preserve">
+    <value>Fájlok tallózása a mappában</value>
+  </data>
+  <data name="EMAIL_SMTP_TEST_SUBJECT.Text" xml:space="preserve">
+    <value>[Host:HostTitle] SMTP konfigurációs teszt innen: [Portal:PortalName]</value>
+  </data>
+  <data name="MESSAGE_PORTAL_PRIVACY.Text" xml:space="preserve">
+    <value>&lt;div align="left"&gt;
+    &lt;p&gt;[Portal:PortalName] elkötelezett az Ön adatainak védelme és olyan technológiák fejlesztése mellett, amelyek a lehető legbiztonságosabb és leghatékonyabb online élményt nyújtják. Ez az Adatvédelmi nyilatkozat a [Portal:PortalName] weboldalra vonatkozik, és szabályozza az adatgyűjtést és -felhasználást. A [Portal:PortalName] weboldal használatával Ön elfogadja az ebben a nyilatkozatban leírt adatkezelési gyakorlatokat.&lt;/p&gt;
+
+    &lt;p&gt;&lt;span class="SubHead"&gt;Személyes adatok gyűjtése&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;[Portal:PortalName] személyazonosításra alkalmas adatokat gyűjt, például az Ön e-mail címét, nevét, otthoni vagy munkahelyi címét, valamint telefonszámát. [Portal:PortalName] továbbá anonim demográfiai információkat is gyűjt, amelyek nem egyediek Önre nézve, például irányítószámát, életkorát, nemét, preferenciáit, érdeklődési körét és kedvenceit.&lt;/p&gt;
+
+    &lt;p&gt;[Portal:PortalName] automatikusan gyűjt információkat az Ön számítógépének hardveréről és szoftveréről is. Ezek az adatok magukban foglalhatják az IP-címét, a böngésző típusát, a domain neveket, a hozzáférési időket és a hivatkozó weboldalak címeit. [Portal:PortalName] ezeket az információkat a szolgáltatás működtetésére, annak minőségének fenntartására, valamint a [Portal:PortalName] weboldal használatával kapcsolatos általános statisztikák készítésére használja fel.&lt;/p&gt;
+
+    &lt;p&gt;Kérjük, vegye figyelembe, hogy ha Ön közvetlenül tesz közzé személyes adatokat vagy érzékeny információkat a [Portal:PortalName] nyilvános üzenőfalain, mások ezeket az információkat gyűjthetik és felhasználhatják. Fontos megjegyezni, hogy [Portal:PortalName] nem olvassa az Ön privát online kommunikációját.&lt;/p&gt;
+
+    &lt;p&gt;[Portal:PortalName] javasolja, hogy tekintse át azon weboldalak adatvédelmi nyilatkozatait, amelyekre a [Portal:PortalName] oldalról hivatkozás mutat, hogy megérthesse, hogyan gyűjtik, használják fel és osztják meg az Ön adatait. [Portal:PortalName] nem vállal felelősséget a [Portal:PortalName] és kapcsolódó weboldalakon kívüli weboldalak adatvédelmi nyilatkozataiért vagy tartalmáért.&lt;/p&gt;
+
+    &lt;p&gt;&lt;span class="SubHead"&gt;Személyes adatok felhasználása&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;[Portal:PortalName] az Ön személyes adatait a [Portal:PortalName] weboldal működtetésére és az Ön által kért szolgáltatások nyújtására használja fel. [Portal:PortalName] az Ön személyazonosításra alkalmas adatait arra is használhatja, hogy tájékoztassa Önt más, a [Portal:PortalName] vagy partnerei által kínált termékekről vagy szolgáltatásokról. [Portal:PortalName] időnként felkeresheti Önt kérdőívekkel, hogy felmérje véleményét a jelenlegi szolgáltatásokról, illetve a jövőben bevezethető új szolgáltatásokról.&lt;/p&gt;
+
+    &lt;p&gt;[Portal:PortalName] nem adja el, nem bérli és nem adja lízingbe ügyféllistáit harmadik feleknek. [Portal:PortalName] időről időre kapcsolatba léphet Önnel külső üzleti partnerek nevében egy adott ajánlattal kapcsolatban, amely érdekelheti Önt. Ezekben az esetekben az Ön egyedi, személyazonosításra alkalmas adatai (e-mail, név, cím, telefonszám) nem kerülnek át harmadik félhez. Ezen kívül [Portal:PortalName] megbízható partnerekkel is megoszthat adatokat statisztikai elemzések elvégzésére, e-mailek vagy postai levelek küldésére, ügyfélszolgálat biztosítására vagy kiszállítások megszervezésére. Minden ilyen harmadik fél kizárólag a [Portal:PortalName] számára nyújtott szolgáltatások elvégzésére használhatja fel az Ön adatait, és kötelesek megőrizni azok bizalmas jellegét.&lt;/p&gt;
+
+    &lt;p&gt;[Portal:PortalName] nem használja és nem hozza nyilvánosságra az Ön érzékeny személyes adatait, például faji hovatartozását, vallási meggyőződését vagy politikai nézeteit az Ön kifejezett hozzájárulása nélkül.&lt;/p&gt;
+
+    &lt;p&gt;[Portal:PortalName] nyomon követi azokat a weboldalakat és oldalakat, amelyeket ügyfelei a [Portal:PortalName] weboldalon belül meglátogatnak, hogy meghatározza, mely szolgáltatások a legnépszerűbbek. Ezeket az adatokat testreszabott tartalom és reklámok megjelenítésére használja azoknak a felhasználóknak, akik bizonyos témakörök iránt érdeklődnek.&lt;/p&gt;
+
+    &lt;p&gt;[Portal:PortalName] weboldalai csak törvényi előírás vagy jóhiszemű meggyőződés alapján hozzák nyilvánosságra az Ön személyes adatait, ha ez szükséges (a) a jogszabályoknak való megfelelés érdekében, (b) a [Portal:PortalName] jogainak és tulajdonának védelmében, vagy (c) sürgős helyzetben a [Portal:PortalName] felhasználói vagy a nyilvánosság személyes biztonságának megóvása érdekében.&lt;/p&gt;
+
+    &lt;p&gt;&lt;span class="SubHead"&gt;Sütik használata&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;A [Portal:PortalName] weboldal sütiket ("cookies") használ, hogy személyre szabja az Ön online élményét. A süti egy olyan szöveges fájl, amelyet egy weboldal szerver helyez el az Ön merevlemezére. A sütik nem képesek programok futtatására vagy vírusok továbbítására. Minden süti egyedi az Ön számára, és csak az a weboldal szerver tudja elolvasni, amely a sütit kiadta.&lt;/p&gt;
+
+    &lt;p&gt;A sütik egyik fő célja, hogy időt takarítsanak meg Önnek. Ha például testreszabja a [Portal:PortalName] oldalakat vagy regisztrál egy szolgáltatásra, a süti segít [Portal:PortalName]-nek emlékezni az Ön adataira a későbbi látogatások során.&lt;/p&gt;
+
+    &lt;p&gt;Ön eldöntheti, hogy elfogadja vagy elutasítja a sütiket. A legtöbb böngésző automatikusan elfogadja a sütiket, de Ön módosíthatja a beállításokat, hogy elutasítsa azokat. Ha elutasítja a sütiket, előfordulhat, hogy nem tudja teljes mértékben kihasználni a [Portal:PortalName] szolgáltatásait.&lt;/p&gt;
+
+    &lt;p&gt;&lt;span class="SubHead"&gt;Az Ön személyes adatainak védelme&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;[Portal:PortalName] megvédi az Ön személyes adatait az illetéktelen hozzáféréstől, használattól vagy nyilvánosságra hozataltól.&lt;/p&gt;
+
+    &lt;p&gt;&lt;span class="SubHead"&gt;Az adatvédelmi nyilatkozat módosítása&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;[Portal:PortalName] időnként frissítheti ezt a nyilatkozatot, hogy tükrözze a vállalat és az ügyfelek visszajelzéseit.&lt;/p&gt;
+
+    &lt;p&gt;&lt;span class="SubHead"&gt;Kapcsolatfelvétel&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;Ha bármilyen kérdése van, lépjen kapcsolatba velünk: &lt;a href="mailto:[Portal:Email]"&gt;[Portal:Email]&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</value>
+  </data>
+  <data name="EMAIL_PORTAL_SIGNUP_SUBJECT.Text" xml:space="preserve">
+    <value>[Host:HostTitle] Portál regisztráció</value>
+  </data>
+  <data name="EMAIL_PORTAL_SIGNUP_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Webhelye elkészült. Kérjük, figyelmesen olvassa el az alábbi információkat, és ügyeljen arra, hogy ezt az üzenetet biztonságos helyen tárolja későbbi használatra.
+
+Webhely címe: [Portál:URL]
+Felhasználónév: [Felhasználó:Felhasználónév]
+Ellenőrző kód: [User:VerificationCode]
+
+Kérjük, használja ki az alkalmat, látogasson el a webhelyre, és tekintse át annak tartalmát, és használja ki a számos funkcióját.
+
+Köszönjük, nagyra értékeljük a támogatást...
+
+[Host:HostTitle]</value>
+  </data>
+  <data name="MESSAGE_PORTAL_TERMS.Text" xml:space="preserve">
+    <value>&lt;div align="left"&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;MEGÁLLAPODÁS A FELHASZNÁLÓ ÉS [Portal:PortalName] KÖZÖTT&lt;/span&gt;&lt;p&gt;
+        &lt;p&gt;A [Portal:PortalName] weboldal különböző weboldalakból áll, amelyeket a [Portal:PortalName] üzemeltet.&lt;/p&gt;
+        &lt;p&gt;A [Portal:PortalName] weboldal az Ön számára azzal a feltétellel kerül felajánlásra, hogy Ön feltételek, kikötések és közlemények módosítás nélküli elfogadásával használja azt. A [Portal:PortalName] weboldal használatával Ön elfogadja ezeket a feltételeket, kikötéseket és közleményeket.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;A HASZNÁLATI FELTÉTELEK MÓDOSÍTÁSA&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;A [Portal:PortalName] fenntartja a jogot, hogy módosítsa a [Portal:PortalName] weboldal használati feltételeit, kikötéseit és közleményeit, ideértve, de nem kizárólagosan a weboldal használatához kapcsolódó díjakat.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;HARMADIK FÉL WEBOLDALAIHOZ VEZETŐ LINKEK&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;A [Portal:PortalName] weboldal tartalmazhat más weboldalakra mutató linkeket („Kapcsolt Oldalak”). A Kapcsolt Oldalak nem állnak a [Portal:PortalName] irányítása alatt, és a [Portal:PortalName] nem felelős a Kapcsolt Oldalak tartalmáért, beleértve, de nem kizárólagosan, a Kapcsolt Oldalon található linkeket, vagy a Kapcsolt Oldalak bármilyen módosítását, frissítését. A [Portal:PortalName] nem felelős semmilyen webes közvetítésért vagy bármilyen más adatátvitelért, amelyet bármely Kapcsolt Oldal közvetít. A [Portal:PortalName] ezeket a linkeket kizárólag kényelmi célból biztosítja Önnek, és egyetlen link sem jelenti a [Portal:PortalName] általi jóváhagyást vagy a Kapcsolt Oldal üzemeltetőivel való kapcsolatot.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;TILOS JOGELLENES VAGY ENGEDÉLY NÉLKÜLI HASZNÁLAT&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;A [Portal:PortalName] weboldal használatának feltételeként Ön szavatolja a [Portal:PortalName] felé, hogy a weboldalt nem használja jogellenes vagy az itt meghatározott feltételekkel ellentétes célokra. Nem használhatja a [Portal:PortalName] weboldalt olyan módon, amely kárt okozhat, letilthatja, túlterhelheti vagy ronthatja a weboldal működését, illetve amely akadályozhatja mások weboldalhasználatát. Nem szerezhet be, és nem próbálhat megszerezni semmilyen anyagot vagy információt olyan módon, amelyet nem szándékosan biztosítanak a [Portal:PortalName] weboldalon keresztül.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="SubHead"&gt;KOMMUNIKÁCIÓS SZOLGÁLTATÁSOK HASZNÁLATA&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;A [Portal:PortalName] weboldal tartalmazhat hirdetőtáblákat, csevegőszobákat, hírcsoportokat, fórumokat, közösségeket, személyes weboldalakat, naptárakat és egyéb üzenetküldő vagy kommunikációs lehetőségeket („Kommunikációs Szolgáltatások”), amelyek lehetővé teszik, hogy a nyilvánossággal vagy egy csoporttal kommunikáljon. Ön beleegyezik, hogy a Kommunikációs Szolgáltatásokat kizárólag megfelelő és az adott szolgáltatáshoz kapcsolódó üzenetek és anyagok küldésére és fogadására használja. Például, de nem kizárólagosan, Ön vállalja, hogy a Kommunikációs Szolgáltatások használata során nem:&lt;/p&gt;
+&lt;ul&gt;
+            &lt;li&gt;Rágalmaz, zaklat, fenyeget vagy más módon sérti mások törvényes jogait (például a magánélethez és a nyilvánossághoz fűződő jogokat).&lt;/li&gt;
+            &lt;li&gt;Közzétesz, feltölt, terjeszt vagy továbbít bármilyen nem megfelelő, trágár, rágalmazó, szerzői jogot sértő, obszcén, erkölcstelen vagy jogellenes témát, nevet, anyagot vagy információt.&lt;/li&gt;
+            &lt;li&gt;Olyan fájlokat tölt fel, amelyek szoftvert vagy más anyagot tartalmaznak, amely szerzői jogi védelem alatt áll (vagy amely a magánélet védelmét érintő jogokat sérti), kivéve, ha Ön birtokolja a jogokat, vagy rendelkezik a szükséges engedélyekkel.&lt;/li&gt;
+            &lt;li&gt;Olyan fájlokat tölt fel, amelyek vírusokat, sérült fájlokat vagy más olyan szoftvereket tartalmaznak, amelyek károsíthatják mások számítógépeinek működését.&lt;/li&gt;
+            &lt;li&gt;Reklámoz vagy árut, illetve szolgáltatást kínál eladásra vagy vételre üzleti célból, kivéve, ha az adott Kommunikációs Szolgáltatás kifejezetten engedélyezi az ilyen üzeneteket.&lt;/li&gt;
+            &lt;li&gt;Felhasználói felméréseket, versenyeket, piramisjátékokat vagy láncleveleket küld tovább.&lt;/li&gt;
+            &lt;li&gt;Olyan fájlokat tölt le, amelyeket egy másik felhasználó tett közzé a Kommunikációs Szolgáltatásban, és amelyről tudja, vagy ésszerűen tudnia kellene, hogy jogellenes módon terjesztik.&lt;/li&gt;
+            &lt;li&gt;Hamisítja vagy törli a szerzői megjelöléseket, jogi nyilatkozatokat vagy a szoftverek és más anyagok forrását jelölő címkéket egy feltöltött fájlban.&lt;/li&gt;
+            &lt;li&gt;Korlátozza vagy akadályozza más felhasználók Kommunikációs Szolgáltatásainak használatát és élvezetét.&lt;/li&gt;
+            &lt;li&gt;Megsérti bármely vonatkozó etikai kódexet vagy iránymutatást, amely az adott Kommunikációs Szolgáltatásra vonatkozik.&lt;/li&gt;
+            &lt;li&gt;Mások adatait, beleértve az e-mail címeket, jogosulatlanul gyűjti vagy használja.&lt;/li&gt;
+            &lt;li&gt;Megsérti a vonatkozó törvényeket és szabályozásokat.&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;A [Portal:PortalName] nem köteles figyelemmel kísérni a Kommunikációs Szolgáltatásokat. Azonban a [Portal:PortalName] fenntartja a jogot, hogy átnézze a Kommunikációs Szolgáltatásokba feltöltött anyagokat, és saját belátása szerint eltávolítsa azokat. A [Portal:PortalName] fenntartja a jogot, hogy bármikor, előzetes értesítés nélkül megszüntesse az Ön hozzáférését a Kommunikációs Szolgáltatásokhoz.&lt;/p&gt;
+        &lt;p&gt;A [Portal:PortalName] fenntartja magának a jogot, hogy bármikor felfedje az információkat a vonatkozó jogszabályok, rendeletek, jogi eljárások vagy kormányzati kérések teljesítése érdekében, vagy saját belátása szerint szerkessze, megtagadja a közzétételt, illetve eltávolítsa az információkat vagy anyagokat részben vagy egészben.&lt;/p&gt;
+&lt;p&gt;Mindig legyen óvatos, amikor bármilyen személyes azonosításra alkalmas információt ad meg magáról vagy gyermekeiről bármely Kommunikációs Szolgáltatásban. [Portal:PortalName] nem ellenőrzi és nem támogatja a Kommunikációs Szolgáltatásban található tartalmakat, üzeneteket vagy információkat, ezért [Portal:PortalName] kifejezetten elhárít minden felelősséget a Kommunikációs Szolgáltatásokkal kapcsolatban, valamint az Ön részvételéből eredő bármilyen következményért. A moderátorok és házigazdák nem hivatalos [Portal:PortalName] szóvivők, és véleményük nem feltétlenül tükrözi [Portal:PortalName] álláspontját.&lt;/p&gt;
+
+&lt;p&gt;A Kommunikációs Szolgáltatásba feltöltött anyagokra korlátozások vonatkozhatnak a használatra, sokszorosításra és/vagy terjesztésre. Ön felelős azért, hogy betartsa ezeket a korlátozásokat, ha letölti az anyagokat.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="SubHead"&gt;AZ [Portal:PortalName]-NAK BIZTOSÍTOTT VAGY BÁRMELY [Portal:PortalName] WEBOLDALON KÖZZÉTETT ANYAGOK&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;[Portal:PortalName] nem igényel tulajdonjogot azokra az anyagokra, amelyeket Ön [Portal:PortalName]-nak biztosít (beleértve a visszajelzéseket és javaslatokat) vagy közzétesz, feltölt, bevisz vagy benyújt bármely [Portal:PortalName] weboldalon vagy annak kapcsolódó szolgáltatásain keresztül (együttesen "Beküldések"). Azonban a Beküldés közzétételével, feltöltésével, bevitelével, biztosításával vagy benyújtásával Ön engedélyt ad [Portal:PortalName]-nak, annak kapcsolt vállalkozásainak és szükséges allicencbirtokosainak arra, hogy a Beküldéseket internetes üzleti tevékenységük során felhasználják, ideértve, de nem kizárólagosan az alábbi jogokat: másolás, terjesztés, továbbítás, nyilvános megjelenítés, nyilvános előadás, sokszorosítás, szerkesztés, fordítás és újraformázás, valamint az Ön nevének közzététele a Beküldésével kapcsolatban.&lt;/p&gt;
+
+&lt;p&gt;A Beküldés felhasználásáért nem jár semmilyen ellenszolgáltatás. [Portal:PortalName] nem köteles közzétenni vagy felhasználni az Ön által biztosított bármely Beküldést, és saját belátása szerint bármikor eltávolíthatja azt.&lt;/p&gt;
+
+&lt;p&gt;A Beküldés közzétételével, feltöltésével, bevitelével, biztosításával vagy benyújtásával Ön garantálja és kijelenti, hogy Ön rendelkezik, vagy egyéb módon ellenőrzi a Beküldésben leírt összes jogot, ideértve, de nem kizárólagosan az összes olyan jogot, amely szükséges ahhoz, hogy a Beküldéseket biztosítsa, közzétegye, feltöltse, beírja vagy benyújtsa.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="SubHead"&gt;FELELŐSSÉG KIZÁRÁSA&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;A [Portal:PortalName] weboldalon elérhető információk, szoftverek, termékek és szolgáltatások tartalmazhatnak pontatlanságokat vagy elírásokat. Az itt található információk időről időre módosulnak. [Portal:PortalName] és/vagy beszállítói bármikor javításokat és/vagy változtatásokat végezhetnek a [Portal:PortalName] weboldalon. A [Portal:PortalName] weboldalon keresztül kapott tanácsokra nem szabad támaszkodni személyes, orvosi, jogi vagy pénzügyi döntések meghozatalakor, és az adott helyzetre szabott konkrét tanácsokért megfelelő szakemberhez kell fordulnia.&lt;/p&gt;
+
+&lt;p&gt;[Portal:PortalName] és/vagy beszállítói nem vállalnak garanciát arra vonatkozóan, hogy a [Portal:PortalName] weboldalon található információk, szoftverek, termékek, szolgáltatások és kapcsolódó grafikák bármely célra alkalmasak, megbízhatóak, elérhetőek, időszerűek és pontosak. A vonatkozó jogszabályok által megengedett legnagyobb mértékben az összes ilyen információ, szoftver, termék, szolgáltatás és kapcsolódó grafika "ahogy van" állapotban kerül biztosításra, bármiféle garancia vagy feltétel nélkül. [Portal:PortalName] és/vagy beszállítói ezennel elhárítanak minden jótállást és feltételt, beleértve, de nem kizárólagosan a forgalmazhatóságra, adott célra való alkalmasságra, tulajdonjogra és jogsértés-mentességre vonatkozó vélelmezett garanciákat és feltételeket.&lt;/p&gt;
+
+&lt;p&gt;A vonatkozó jogszabályok által megengedett legnagyobb mértékben [Portal:PortalName] és/vagy beszállítói semmilyen körülmények között nem felelősek semmilyen közvetlen, közvetett, büntető jellegű, járulékos, különleges, következményes vagy egyéb kárért, ideértve, de nem kizárólagosan az adatvesztésből, a haszon elmaradásából vagy a használati lehetőség elvesztéséből eredő károkat, amelyek a [Portal:PortalName] weboldal használatából vagy teljesítményéből, a weboldal használatának késedelméből vagy lehetetlenségéből, a szolgáltatások nyújtásából vagy elmulasztásából, illetve a [Portal:PortalName] weboldalon keresztül szerzett információkból, szoftverekből, termékekből, szolgáltatásokból és kapcsolódó grafikákból erednek, függetlenül attól, hogy azok szerződésen, károkozáson, hanyagságon, szigorú felelősségen vagy más jogi elven alapulnak, még akkor is, ha [Portal:PortalName] vagy bármely beszállítója értesítést kapott az ilyen károk lehetőségéről. Mivel egyes államok/joghatóságok nem engedélyezik a következményes vagy járulékos károk kizárását vagy korlátozását, előfordulhat, hogy a fenti korlátozások Önre nem vonatkoznak. Ha elégedetlen a [Portal:PortalName] weboldal bármely részével vagy ezekkel a felhasználási feltételekkel, az egyetlen és kizárólagos jogorvoslati lehetősége, hogy megszünteti a [Portal:PortalName] weboldal használatát.&lt;/p&gt;
+        &lt;p&gt;SZOLGÁLTATÁSI KAPCSOLAT: [Portal:Email]&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="SubHead"&gt;MEGSZÜNTETÉS/HOZZÁFÉRÉS KORLÁTOZÁSA&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;[Portal:PortalName] fenntartja a jogot, hogy saját belátása szerint bármikor, előzetes értesítés nélkül megszüntesse az Ön hozzáférését a [Portal:PortalName] weboldalhoz és a kapcsolódó szolgáltatásokhoz, illetve azok bármely részéhez.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="SubHead"&gt;ÁLTALÁNOS FELTÉTELEK&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;A törvény által megengedett legnagyobb mértékben ez a megállapodás az Amerikai Egyesült Államok, Washington állam jogszabályai szerint irányadó, és Ön ezennel elfogadja, hogy minden, a [Portal:PortalName] weboldal használatából vagy azzal összefüggésben felmerülő jogvita esetében kizárólagosan a kaliforniai San Mateo megyében található bíróságok rendelkeznek joghatósággal. A [Portal:PortalName] weboldal használata nem engedélyezett olyan joghatóságokban, amelyek nem érvényesítik teljes mértékben ezen feltételek és kikötések minden rendelkezését, ideértve, de nem kizárólagosan ezt a bekezdést.&lt;/p&gt;
+
+&lt;p&gt;Ön elfogadja, hogy e megállapodás vagy a [Portal:PortalName] weboldal használata nem hoz létre közös vállalkozást, partnerséget, munkaviszonyt vagy ügynöki kapcsolatot Ön és [Portal:PortalName] között.&lt;/p&gt;
+
+&lt;p&gt;[Portal:PortalName] e megállapodás teljesítését a hatályos jogszabályoknak és jogi eljárásoknak megfelelően végzi, és semmi sem korlátozza [Portal:PortalName] jogát arra, hogy megfeleljen a kormányzati, bírósági és bűnüldözési hatóságok által az Ön [Portal:PortalName] weboldal használatával kapcsolatos információkra vonatkozó kéréseinek vagy követelményeinek.&lt;/p&gt;
+
+&lt;p&gt;Ha e megállapodás bármely része érvénytelennek vagy végrehajthatatlannak bizonyul az alkalmazandó jog alapján, ideértve, de nem kizárólagosan a fent említett jótállási kizárásokat és felelősségkorlátozásokat, akkor az érvénytelen vagy végrehajthatatlan rendelkezést egy olyan érvényes és végrehajtható rendelkezés váltja fel, amely a lehető legjobban megfelel az eredeti rendelkezés céljának, és a megállapodás fennmaradó része továbbra is érvényben marad.&lt;/p&gt;
+
+&lt;p&gt;Hacsak másképp nem rendelkezik, ez a megállapodás a teljes megállapodást képezi a felhasználó és [Portal:PortalName] között a [Portal:PortalName] weboldallal kapcsolatban, és felülír minden korábbi vagy egyidejű elektronikus, szóbeli vagy írásos közlést és javaslatot a felhasználó és [Portal:PortalName] között.&lt;/p&gt;
+
+&lt;p&gt;E megállapodás nyomtatott változata és az elektronikus formában megadott értesítések bírósági vagy közigazgatási eljárásban ugyanolyan mértékben és feltételek mellett elfogadhatók, mint a nyomtatott formában eredetileg létrehozott és fenntartott egyéb üzleti dokumentumok és nyilvántartások.&lt;/p&gt;
+
+&lt;p&gt;A felek kifejezett kívánsága, hogy ez a megállapodás és minden kapcsolódó dokumentum angol nyelven készüljön.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="SubHead"&gt;SZERZŐI JOGI ÉS VÉDJEGYJOGI FIGYELMEZTETÉSEK:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;A [Portal:PortalName] weboldal minden tartalma: [Portal:FooterText] és/vagy beszállítói tulajdona. Minden jog fenntartva.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="SubHead"&gt;VÉDJEGYEK&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Az itt említett tényleges vállalatok és termékek nevei az adott tulajdonosok védjegyei lehetnek.&lt;/p&gt;
+
+&lt;p&gt;Az itt bemutatott példa vállalatok, szervezetek, termékek, személyek és események kitaláltak. Nem célja és nem is szabad azt feltételezni, hogy bármilyen kapcsolat áll fenn valós vállalatokkal, szervezetekkel, termékekkel, személyekkel vagy eseményekkel.&lt;/p&gt;
+
+&lt;p&gt;Minden olyan jog fenntartva, amelyet itt kifejezetten nem biztosítottak.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="SubHead"&gt;SZERZŐI JOGSÉRTÉSRE VONATKOZÓ IGÉNYEK BEJELENTÉSÉNEK ELJÁRÁSA&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Az Amerikai Egyesült Államok Törvénykönyvének 17. címe, 512(c)(2) szakasza értelmében a szerzői jogsértéssel kapcsolatos igénybejelentéseket a Szolgáltató Kijelölt Ügynökéhez kell eljuttatni. MINDEN, AZ ALÁBBI ELJÁRÁSHOZ NEM KAPCSOLÓDÓ MEGKERESÉS VÁLASZ NÉLKÜL MARAD. Lásd a Szerzői Jogsértésre vonatkozó igények bejelentésének eljárását.&lt;/p&gt;&lt;/div&gt;
+</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_ADMINISTRATOR_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Új felhasználó regisztrációja</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_ADMINISTRATOR_BODY.Text" xml:space="preserve">
+    <value>Dátum: [Dátum:Jelenlegi]
+Megjelenítési név: [User:DisplayName]
+E-mail: [Felhasználó:Email]</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PRIVATE_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Új felhasználó regisztrációja</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PRIVATE_BODY.Text" xml:space="preserve">
+    <value>Dear [User:DisplayName],
+
+Thank you for registering at [Portal:PortalName]. Please read the following information carefully and be sure to save this message in a safe location for future reference.
+
+Website Address: [Portal:URL]
+Username: [User:UserName]
+
+Your account details will be reviewed by the website Administrator and you will receive a notification upon account activation.
+
+Thank you, we appreciate your support...
+
+[Portal:PortalName]
+
+</value>
+  </data>
+  <data name="MESSAGE_REGISTRATION_INSTRUCTIONS.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="EMAIL_ROLE_ASSIGNMENT_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Felhasználói fiók frissítése</value>
+  </data>
+  <data name="EMAIL_ROLE_ASSIGNMENT_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Felhasználói fiókját a [Portal:PortalName] webhelyen nemrég frissítettük, hogy a következő biztonsági szerepkörhöz is hozzáférjen:
+
+Szerep: [Egyéni:0]
+Leírás: [Egyedi:1]
+Hatálybalépés dátuma: [Egyéni:2]
+Lejárati dátum: [Egyéni:3]
+
+Köszönjük, nagyra értékeljük a támogatást...
+[Portál:Portálnév]</value>
+  </data>
+  <data name="EMAIL_ROLE_UNASSIGNMENT_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Felhasználói fiók frissítése</value>
+  </data>
+  <data name="EMAIL_ROLE_UNASSIGNMENT_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Az Ön felhasználói fiókja a [Portal:PortalName] webhelyen nemrégiben frissült, hogy korlátozza a hozzáférést a következő biztonsági szerepkörhöz:
+
+Szerep: [Egyéni:0]
+Leírás: [Egyedi:1]
+
+Köszönjük, nagyra értékeljük a támogatást...
+[Portál:Portálnév]</value>
+  </data>
+  <data name="MESSAGE_LOGIN_INSTRUCTIONS.Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="MESSAGE_RETRIEVEPASSWORD_INSTRUCTIONS.Text" xml:space="preserve">
+    <value>A jelszó lekéréséhez meg kell adnia felhasználónevét és a
+			válasz a Jelszó kérdésre.</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Jelszó emlékeztető</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Jelszó-visszaállítási tokent kért a [Portal:PortalName] webhelyről.
+
+Kérjük, jelentkezzen be az alábbi adatokkal:
+
+Webhely címe: [Portál:URL]
+Felhasználónév: [Felhasználó:Felhasználónév]
+
+Link a jelszó visszaállításához: [Portal:PASSWORDREMINDERURL]?ctl=PasswordReset&amp;resetToken=[Tagság:PasswordResetToken]
+
+Őszintén,
+[Portál:Portálnév]
+
+*Megjegyzés: Ha nem kért jelszó-visszaállítási tokent, kérjük, hagyja figyelmen kívül ezt az üzenetet.</value>
+  </data>
+  <data name="EMAIL_USER_AUTHORIZED_SUBJECT.Text" xml:space="preserve">
+    <value>A regisztráció jóváhagyva a következőhöz: [Portal:URL]</value>
+  </data>
+  <data name="EMAIL_USER_AUTHORIZED_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Köszönjük, hogy regisztrált a [Portal:PortalName] oldalon. Regisztrációját jóváhagytuk, fiókja pedig aktív.
+
+Webhely címe: [Portál:URL]
+Felhasználónév: [Felhasználó:Felhasználónév]
+
+Köszönjük, nagyra értékeljük a támogatását.
+
+[Portál:Portálnév]</value>
+  </data>
+  <data name="EMAIL_PROFILE_UPDATED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Profilfrissítési értesítés</value>
+  </data>
+  <data name="EMAIL_PROFILE_UPDATED_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Profilja a [Portal:PortalName] oldalon sikeresen frissült.
+
+Őszintén,
+[Portál:Portálnév]</value>
+  </data>
+  <data name="EMAIL_USER_UNREGISTER_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Unregister User</value>
+  </data>
+  <data name="EMAIL_USER_UNREGISTER_BODY.Text" xml:space="preserve">
+    <value>Date: [Date:Current]
+First Name: [Profile:FirstName]
+Last Name: [Profile:LastName]
+Unit: [Profile:Unit]
+Street: [Profile:Street]
+City: [Profile:City]
+Region: [Profile:Region]
+Country: [Profile:Country]
+Postal Code: [Profile:PostalCode]
+Telephone: [Profile:Telephone]
+Email: [User:Email]
+		</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_VERIFIED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Új felhasználó regisztrációja</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_VERIFIED_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Örömmel értesítjük, hogy regisztrált felhasználóként adtuk hozzá a [Portal:PortalName] oldalhoz. Kérjük, figyelmesen olvassa el az alábbi információkat, és ügyeljen arra, hogy ezt az üzenetet biztonságos helyen tárolja későbbi használatra.
+
+Portál webhely címe: [Portál:URL]
+Felhasználónév: [Felhasználó:Felhasználónév]
+
+Az alábbi link segítségével fejezheti be igazolt regisztrációját:
+
+[Portal:FULLURL]/default.aspx?ctl=Bejelentkezés&amp;username=[Egyéni:0]&amp;verificationcode=[Egyéni:1]
+
+Köszönjük, nagyra értékeljük a támogatást...
+
+[Portal:PortalName]</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PUBLIC_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Új felhasználó regisztrációja</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PUBLIC_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Örömmel értesítjük, hogy regisztrált felhasználóként adtuk hozzá a [Portal:PortalName] oldalhoz. Kérjük, figyelmesen olvassa el az alábbi információkat, és ügyeljen arra, hogy ezt az üzenetet biztonságos helyen tárolja későbbi használatra.
+
+Portál webhely címe: [Portál:URL]
+Felhasználónév: [Felhasználó:Felhasználónév]
+
+Ha nem ismeri vagy nem emlékszik jelszavára, kérjük, lépjen a [Portal:FULLURL]/default.aspx?ctl=PasswordReset&amp;resetToken=[Membership:PasswordResetToken] oldalra a visszaállításhoz.
+Köszönjük, nagyra értékeljük a támogatást...
+
+[Portál:Portálnév]</value>
+  </data>
+  <data name="EMAIL_AFFILIATE_NOTIFICATION_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Értesítés a társult vállalkozásokról</value>
+  </data>
+  <data name="EMAIL_AFFILIATE_NOTIFICATION_BODY.Text" xml:space="preserve">
+    <value>Kedves [Custom:0]!
+
+Fiókja a [Portal:PortalName] Partnerprogramhoz létrejött.
+
+A jutalmak megszerzéséhez használja a következő URL-t a webhelyünkre mutató hivatkozáshoz:
+
+[Egyedi:1]
+
+Köszönöm,
+[Portál:Portálnév]</value>
+  </data>
+  <data name="EMAIL_BANNER_NOTIFICATION_BODY.Text" xml:space="preserve">
+    <value>Banner: [Egyedi:0]
+Leírás: [Egyedi:1]
+Kép: [Egyedi:2]
+CPM/Költség: [Egyéni:3]
+Megjelenések: [Egyedi:4]
+Kezdés dátuma: [Egyéni:5]
+Befejezés dátuma: [Egyéni:6]
+Megtekintések: [Egyéni:7]
+Átkattintások: [Egyéni:8]</value>
+  </data>
+  <data name="EMAIL_BANNER_NOTIFICATION_SUBJECT.Text" xml:space="preserve">
+    <value>[Egyéni:0]</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_ADMINISTRATOR_BODY.Text" xml:space="preserve">
+    <value>Dátum: [Egyéni:0]
+Szállító neve: [Egyéni:1]
+Keresztnév: [Egyedi:2]
+Vezetéknév: [Egyedi:3]
+Mértékegység: [Egyedi:4]
+Utca: [Egyedi:5]
+Város: [Egyedi:6]
+Régió: [Egyedi:7]
+Ország: [Egyedi:8]
+Irányítószám: [Egyedi:9]
+Telefon: [Egyedi:10]
+Fax: [Egyedi:11]
+Cell: [Egyéni:12]
+E-mail: [Egyedi:13]
+Weboldal: [Egyedi:14]</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_ADMINISTRATOR_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Szállítói jelentkezés</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_BODY.Text" xml:space="preserve">
+    <value>Kedves [Custom:0] [Custom:1]!
+
+ [Custom:2], sikeresen regisztrálva a [Portal:PortalName] oldalon.
+
+ Köszönöm,
+
+ [Portál:Portálnév]</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Szállítói jelentkezés</value>
+  </data>
+  <data name="EMAIL_USER_LOCKOUT_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Felhasználói fiók kizárási figyelmeztetése</value>
+  </data>
+  <data name="EMAIL_USER_LOCKOUT_BODY.Text" xml:space="preserve">
+    <value>Kísérlet történt egy zárolt felhasználói fiókhoz (felhasználónév: [Egyéni:0]) a [Dátum:Jelenlegi] napon. Lehet, hogy tovább szeretné vizsgálni ezt az ügyet...
+
+Köszönöm,
+[Portál:Portálnév]</value>
+  </data>
+  <data name="404.Error" xml:space="preserve">
+    <value>&lt;div style="height: 100%; width: 90%;"&gt;
+   &lt;p style="color:red; font-weight:bold;"&gt;A(z) {0} tartományi név nem létezik az adatbázisban&lt;/p&gt;
+   &lt;p&gt;Ez a rendszer több weboldalt támogat egyetlen adatbázis/kódbázis használatával. Ezt úgy éri el, hogy az ügyfél böngészőjének URL-jét egy érvényes portálsorra alakítja a Portals adatbázistáblában. Az alábbi lépések ismertetik a folyamatot:&lt;/p&gt;
+    &lt;ol style="text-align: left; list-style-type: decimal; list-style-position: outside;"&gt;
+        &lt;li&gt;&lt;strong&gt;Webszerver feldolgozása&lt;/strong&gt;&lt;br /&gt;
+            &lt;ul style="list-style-type: disc;"&gt;
+                &lt;li&gt;Amikor a webszerver egy kérést kap az ügyfél böngészőjétől, összehasonlítja a cél URL erőforrás fájlnévkiterjesztését az IIS-ben meghatározott alkalmazásbővítési leképezésekkel.&lt;/li&gt;
+                &lt;li&gt;A megfelelő egyezés alapján az IIS a kérést a meghatározott végrehajtható elérési útra küldi (ASP.NET kérések esetén az aspnet_isapi.dll fájlra).&lt;/li&gt;
+                &lt;li&gt;Az aspnet_isapi.dll motor a kérést egy meghatározott eseménysorozatban dolgozza fel, kezdve az Application_BeginRequest eseménnyel.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;HttpModule.URLRewrite OnBeginRequest (UrlRewriteModule.vb)&lt;/strong&gt;&lt;br /&gt;
+            &lt;ul style="list-style-type: disc;"&gt;
+                &lt;li&gt;A kérés URL-jét a "/" karakter alapján elemzi.&lt;/li&gt;
+                &lt;li&gt;Az URL releváns részeiből összeáll egy tartományi név.&lt;br /&gt;
+                    &lt;br /&gt;
+                    Példák:&lt;br /&gt;
+
+                    URL: https://www.domain.com/default.aspx = Tartományi név: www.domain.com&lt;br /&gt;
+                    URL: https://209.75.24.131/default.aspx = Tartományi név: 209.75.24.131&lt;br /&gt;
+                    URL: https://localhost/DotNetNuke/default.aspx = Tartományi név: localhost/DotNetNuke&lt;br /&gt;
+                    URL: https://www.domain.com/virtualdirectory/default.aspx = Tartományi név: www.domain.com/virtualdirectory&lt;br /&gt;
+                    URL: https://www.domain.com/directory/default.aspx = Tartományi név: www.domain.com/directory&lt;br /&gt;
+                    &lt;br /&gt;
+                &lt;/li&gt;
+                &lt;li&gt;A tartományi név alapján az alkalmazás lekérdezi az adatbázist (PortalAlias tábla - HTTPAlias oszlop) egy megfelelő rekord megtalálásához.&lt;br /&gt;
+                    &lt;br /&gt;
+                    Megjegyzés: Ha az alkalmazást egy távoli szerverre telepíti, módosítania kell a PortalAlias tábla HTTPAlias mezőjének értékét a megfelelő PortalID-hez tartozó rekordban a fent meghatározott szabályok szerint.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="500.Error" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="403_3.Error" xml:space="preserve">
+    <value>&lt;div style="height: 100%; width: 90%;"&gt;     
+    &lt;h3&gt;DNN Konfigurációs Hiba&lt;/h3&gt;     
+    &lt;p&gt;{0}&lt;/p&gt;     
+    &lt;p&gt;A DNN telepítésében biztonsági beállítási probléma észlelhető (valószínűleg jogosultsági hiba). A DNN kiterjedt fájlfeltöltési funkciókkal rendelkezik tartalmakhoz, modulokhoz és témákhoz. Ezek a funkciók egyedi biztonsági beállításokat igényelnek, hogy az alkalmazás képes legyen fájlokat létrehozni és törölni a weboldalon.&lt;/p&gt;     
+    &lt;p&gt;A webszerveren navigáljon a weboldal gyökérmappájába (alapértelmezés szerint C:\DotNetNuke) a Windows Intéző használatával. Kattintson jobb gombbal a mappára, majd válassza a felugró menüből a "Megosztás és biztonság" opciót. Válassza a "Biztonság" fület. Adja hozzá a megfelelő felhasználói fiókot, és állítsa be a megfelelő jogosultságokat az ASP.Net felhasználó számára, amelyet az IIS alkalmazáskészlet speciális beállításaiban határoz meg.&lt;/p&gt;     
+    &lt;ul style="text-align: left; list-style-type: none; list-style-position: outside;"&gt;         
+        &lt;li&gt;&lt;strong&gt;Ha névvel ellátott fiókot használ, például a beépített "NT AUTHORITY\NETWORK SERVICE"-et&lt;/strong&gt;&lt;br/&gt;             
+            &lt;ol style="list-style-type: circle;"&gt;                 
+                &lt;li&gt;A felhasználói fióknak olvasási, írási, olvasási és végrehajtási, valamint módosítási jogosultságokat kell kapnia.&lt;/li&gt;             
+            &lt;/ol&gt;             
+            &lt;br/&gt;         
+        &lt;/li&gt;         
+        &lt;li&gt;&lt;strong&gt;Ha az "ApplicationPoolIdentity" opciót használja (ajánlott)&lt;/strong&gt;&lt;br/&gt;             
+            &lt;ol style="list-style-type: circle;"&gt;                 
+                &lt;li&gt;A IIS AppPool\[AppPool Name] felhasználói fióknak (ahol [AppPool Name] helyére az IIS alkalmazáskészlet tényleges nevét kell beírni) olvasási, írási, olvasási és végrehajtási, valamint módosítási jogosultságokat kell kapnia.&lt;/li&gt;            
+            &lt;/ol&gt;         
+        &lt;/li&gt;     
+    &lt;/ul&gt;     
+    &lt;p&gt;&lt;img alt="A kép azt mutatja, hogy a weboldal gyökérmappájának biztonsági beállításait Olvasás, Írás és Módosítás engedélyekkel kell konfigurálni egy névvel ellátott fiók esetén." src="images/403-3.gif"&gt;&lt;/p&gt; 
+&lt;/div&gt;</value>
+  </data>
+  <data name="Error.Text" xml:space="preserve">
+    <value>Hiba történt.</value>
+  </data>
+  <data name="EMAIL_BulkMailConf_Subject.Text" xml:space="preserve">
+    <value>Tömeges e-mail jelentés a következőhöz: „{0}”.</value>
+  </data>
+  <data name="EMAIL_BulkMailConf_Html_Body.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Tömeges üzenetküldés&lt;/h1&gt;
+    A művelet kezdete: [Custom:0]&lt;br /&gt;
+    E-mail címzettjei: [Egyéni:1]&lt;br /&gt;
+    E-mail üzenetek: [Egyéni:2]&lt;br /&gt;
+    A művelet befejeződött: [Egyéni:3]&lt;br /&gt;
+    [Egyéni:4|Hibák száma:{0}&lt;br /&gt;]
+    &lt;br /&gt;
+    Állapotjelentés: &lt;br /&gt;
+           &lt;pre&gt;[Egyéni:5]&lt;/pre&gt;
+    [Egyéni:6|&lt;hr /&gt;&lt;strong&gt;Címzettek:&lt;/strong&gt;&lt;br /&gt;{0}]</value>
+  </data>
+  <data name="EMAIL_BulkMailConf_Text_Body.Text" xml:space="preserve">
+    <value>A művelet kezdete: [Egyéni:0]
+E-mail címzettjei: [Egyéni:1]
+E-mail üzenetek: [Egyéni:2]
+Művelet befejezve: [Egyéni:3]
+
+[Egyéni:4|Hibák száma: {0}
+]Állapotjelentés:
+[Egyedi:5]
+--------------------------------
+[Egyéni:6|Címzettek:
+===========
+{0}]</value>
+  </data>
+  <data name="NoErrorsSending.Text" xml:space="preserve">
+    <value>Nem történt hiba a küldés során.</value>
+  </data>
+  <data name="Return.Text" xml:space="preserve">
+    <value>Visszatérés az oldalhoz</value>
+  </data>
+  <data name="UnhandledError.Text" xml:space="preserve">
+    <value>Kezeletlen hiba történt.</value>
+  </data>
+  <data name="TokenReplaceUnknownObject.Text" xml:space="preserve">
+    <value>Hiba a [{0}:{1}] elérésekor, a {0} egy ismeretlen objektumforrás-token.</value>
+  </data>
+  <data name="TokenReplaceRestrictedProperty.Text" xml:space="preserve">
+    <value>Hiba a [{0}:{1}] elérésekor, a(z) {1} hozzáférése korlátozott a(z) {0} adatforrás számára.</value>
+  </data>
+  <data name="TokenReplaceUnknownProperty.Text" xml:space="preserve">
+    <value>Hiba a [{0}:{1}] elérésekor, a(z) {1} ismeretlen a(z) {0} adatforráshoz.</value>
+  </data>
+  <data name="Can Deploy.Permission" xml:space="preserve">
+    <value>Modul telepítése</value>
+  </data>
+  <data name="Authentication.String" xml:space="preserve">
+    <value>Hitelesítés</value>
+  </data>
+  <data name="License.Text" xml:space="preserve">
+    <value>&lt;h2&gt;Az MIT-licenc (MIT)&lt;/h2&gt;
+
+&lt;h3&gt;Szerzői jog (c) .NET Foundation és közreműködők&lt;/h3&gt;
+&lt;p&gt;Minden jog fenntartva&lt;/p&gt;
+
+&lt;p&gt;Az engedélyt ezennel ingyenesen megadjuk minden olyan személynek, aki másolatot kap
+e szoftver és a kapcsolódó dokumentációs fájlok (a "Szoftver") kezeléséhez
+a Szoftverben korlátozás nélkül, beleértve korlátozás nélkül a jogokat
+használata, másolása, módosítása, egyesítése, közzététele, terjesztése, allicencelése és/vagy értékesítése
+a Szoftver másolatait, és lehetővé teszi azon személyek számára, akiknek a Szoftver tartozik
+erre van berendezve, a következő feltételekkel:&lt;/p&gt;
+
+&lt;p&gt;A fenti szerzői jogi megjegyzést és ezt az engedélyt minden esetben tartalmazni kell
+a Szoftver másolatai vagy jelentős részei.&lt;/p&gt;
+
+&lt;p&gt;A SZOFTVER "AHOGY VAN", MINDENFÉLE GARANCIA NÉLKÜL, KIFEJEZETT VAGY
+VÉLEMEZTETETT, BELEÉRTVE, AZ ELADHATÓSÁGRA VONATKOZÓ GARANCIÁKAT NEM KIZÁRÓLAGOSAN,
+MEGHATÁROZOTT CÉLRA VALÓ ALKALMASSÁG ÉS JOGSÉRTÉS. SEMMILYEN ESETÉN AZ
+A SZERZŐK VAGY SZERZŐI JOGOK TULAJDONOSAI FELELŐSEK BÁRMILYEN IGÉNYÉRT, KÁROKÉRT VAGY EGYÉB
+FELELŐSSÉG, AKÁR SZERZŐDÉS KERETÉBŐL, VÁROSSÁGBAN VAGY EGYÉBEN EREDŐ,
+A SZOFTVEREN KÍVÜL VAGY KAPCSOLATBAN, VAGY HASZNÁLAT VAGY EGYÉB KAPCSOLATBAN
+SZOFTVER.&lt;/p&gt;</value>
+  </data>
+  <data name="SkinLoadError.Text" xml:space="preserve">
+    <value>Nem sikerült betölteni a témát: {0}, Hiba: {1}&lt;br/&gt;</value>
+  </data>
+  <data name="EMAIL_ROLE_UPDATE_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Felhasználói fiók frissítése</value>
+  </data>
+  <data name="EMAIL_ROLE_UPDATE_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Felhasználói fiókját a [Portal:PortalName] webhelyen nemrégiben frissítettük a következő biztonsági szerepkör hozzáférésének módosítása érdekében:
+
+Szerep: [Egyéni:0]
+Leírás: [Egyedi:1]
+Hatálybalépés dátuma: [Egyéni:2]
+Lejárati dátum: [Egyéni:3]
+
+Köszönjük, nagyra értékeljük a támogatást...
+[Portál:Portálnév]</value>
+  </data>
+  <data name="PurgeCacheUnsupported.Text" xml:space="preserve">
+    <value>Ennek a gyorsítótárazási szolgáltatónak nincs szüksége a PurgeCache szolgáltatásra.</value>
+  </data>
+  <data name="NoLoginControl.Text" xml:space="preserve">
+    <value>A rendszer átirányította erre az alapértelmezett bejelentkezési oldalra, mert a webhelyhez tartozó bejelentkezési oldal nem tartalmaz érvényes DNN-fiók bejelentkezési modult, vagy az engedélyek nincsenek megfelelően beállítva.</value>
+  </data>
+  <data name="EMAIL_USER_UPDATED_OWN_PASSWORD_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Megváltoztatta jelszavát a [Portal:PortalName] oldalon.
+
+Kérjük, jelentkezzen be az alábbi adatokkal:
+
+Webhely címe: [Portál:URL]
+Felhasználónév: [Felhasználó:Felhasználónév]
+
+Őszintén,
+[Portál:Portálnév]</value>
+  </data>
+  <data name="EMAIL_USER_UPDATED_OWN_PASSWORD_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Jelszó frissítve</value>
+  </data>
+  <data name="ViewSource.Action" xml:space="preserve">
+    <value>Fejlesztés</value>
+  </data>
+  <data name="EnglishName.Text" xml:space="preserve">
+    <value>Angol név</value>
+  </data>
+  <data name="NativeName.Text" xml:space="preserve">
+    <value>Anyanyelvi nyelv</value>
+  </data>
+  <data name="NeutralCulture.Text" xml:space="preserve">
+    <value>Semleges kultúra</value>
+  </data>
+  <data name="DeLocalize.Action" xml:space="preserve">
+    <value>Eltávolítás</value>
+  </data>
+  <data name="Localize.Action" xml:space="preserve">
+    <value>Áthelyezés</value>
+  </data>
+  <data name="Translate.Action" xml:space="preserve">
+    <value>Megjelölés lefordítva</value>
+  </data>
+  <data name="UnTranslate.Action" xml:space="preserve">
+    <value>Megjelölés nem lefordítva</value>
+  </data>
+  <data name="SearchCrawler Admin.String" xml:space="preserve">
+    <value>SearchCrawler Admin</value>
+  </data>
+  <data name="Manage.Text" xml:space="preserve">
+    <value>Kezelés</value>
+  </data>
+  <data name="ModuleGenericActions.Action" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="ModuleSpecificActions.Action" xml:space="preserve">
+    <value>Szerkesztés</value>
+  </data>
+  <data name="//AboutUs.String" xml:space="preserve">
+    <value>Rólunk</value>
+  </data>
+  <data name="//Home.String" xml:space="preserve">
+    <value>Kezdőoldal</value>
+  </data>
+  <data name="//Host//HTMLEditorManager.String" xml:space="preserve">
+    <value>HTML szerkesztő</value>
+  </data>
+  <data name="//SearchResults.String" xml:space="preserve">
+    <value>Keresési eredmények</value>
+  </data>
+  <data name="//UserProfile.String" xml:space="preserve">
+    <value>Felhasználói profil</value>
+  </data>
+  <data name="EMAIL_BulkMailStart_Body.Text" xml:space="preserve">
+    <value>{1} felhasználó küldött tömeges levelet „{0}” {2} címzettnek. Kérjük, tekintse át a küldési jelentést a sikertelen átvitelekről és a feladók beérkezett üzeneteit a visszaküldésekről.</value>
+  </data>
+  <data name="EMAIL_BulkMailStart_Subject.Text" xml:space="preserve">
+    <value>Tömeges levél „{0}” elküldve</value>
+  </data>
+  <data name="//NewsPromotions.String" xml:space="preserve">
+    <value>Hírek és promóciók</value>
+  </data>
+  <data name="//OurProducts.String" xml:space="preserve">
+    <value>Termékeink</value>
+  </data>
+  <data name="//Modules.Text" xml:space="preserve">
+    <value>Modulok</value>
+  </data>
+  <data name="//Pages.Text" xml:space="preserve">
+    <value>Oldalak</value>
+  </data>
+  <data name="//Tools.Text" xml:space="preserve">
+    <value>Eszközök</value>
+  </data>
+  <data name="RelationshipType_Added.Text" xml:space="preserve">
+    <value>Hozzáadott kapcsolattípus: {0}</value>
+  </data>
+  <data name="RelationshipType_Deleted.Text" xml:space="preserve">
+    <value>Törölt kapcsolattípus: {0}: azonosító: {1}</value>
+  </data>
+  <data name="RelationshipType_Updated.Text" xml:space="preserve">
+    <value>Frissített kapcsolattípus: {0}</value>
+  </data>
+  <data name="Relationship_Added.Text" xml:space="preserve">
+    <value>Hozzáadott kapcsolat: {0}</value>
+  </data>
+  <data name="Relationship_Deleted.Text" xml:space="preserve">
+    <value>Törölt kapcsolat: {0}: azonosító: {1}</value>
+  </data>
+  <data name="Relationship_Updated.Text" xml:space="preserve">
+    <value>Frissített kapcsolat {0}</value>
+  </data>
+  <data name="UserRelationshipPreference_Added.Text" xml:space="preserve">
+    <value>A(z) {0} UserRelationshipPreference azonosító hozzáadva a(z) {1} felhasználói azonosítóhoz és a(z) {2} kapcsolatazonosítóhoz</value>
+  </data>
+  <data name="UserRelationshipPreference_Deleted.Text" xml:space="preserve">
+    <value>A(z) {1} felhasználói azonosítóhoz és a(z) {2} kapcsolatazonosítóhoz tartozó UserRelationshipPreference azonosító törölve</value>
+  </data>
+  <data name="UserRelationshipPreference_Updated.Text" xml:space="preserve">
+    <value>Frissített UserRelationshipPreference ID ({0}) a(z) {1} felhasználói azonosítóhoz és a(z) {2} kapcsolatazonosítóhoz</value>
+  </data>
+  <data name="UserRelationship_Added.Text" xml:space="preserve">
+    <value>A(z) {0} UserRelationship ID hozzáadva a(z) {1} felhasználói azonosítóhoz, a kapcsolódó felhasználói azonosító: {2}</value>
+  </data>
+  <data name="UserRelationship_Deleted.Text" xml:space="preserve">
+    <value>A(z) {0} UserRelationship ID törölve a(z) {1} felhasználói azonosítóhoz, a kapcsolódó felhasználói azonosító: {2}</value>
+  </data>
+  <data name="UserRelationship_Updated.Text" xml:space="preserve">
+    <value>Frissített felhasználói kapcsolatazonosító: {0} a következő felhasználói azonosítóhoz: {1}, kapcsolódó felhasználói azonosító: {2}</value>
+  </data>
+  <data name="AddFriendRequestSubject.Text" xml:space="preserve">
+    <value>{0} barát akar lenni</value>
+  </data>
+  <data name="AddFriendRequestBody.Text" xml:space="preserve">
+    <value>{0} barátkozni szeretne veled</value>
+  </data>
+  <data name="AddFollowerRequestSubject.Text" xml:space="preserve">
+    <value>{0} követ téged</value>
+  </data>
+  <data name="AddFollowerRequestBody.Text" xml:space="preserve">
+    <value>Önt most {0} követi</value>
+  </data>
+  <data name="//ActivityFeed.String" xml:space="preserve">
+    <value>Tevékenység</value>
+  </data>
+  <data name="//ActivityFeed//Friends.String" xml:space="preserve">
+    <value>Barárok</value>
+  </data>
+  <data name="//ActivityFeed//Messages.String" xml:space="preserve">
+    <value>Üzenetek</value>
+  </data>
+  <data name="//ActivityFeed//MyProfile.String" xml:space="preserve">
+    <value>Profilom</value>
+  </data>
+  <data name="EMAIL_SUBJECT_FORMAT.Text" xml:space="preserve">
+    <value>Új üzenet tőle: {0}</value>
+  </data>
+  <data name="EMAIL_BODY_FORMAT.Text" xml:space="preserve">
+    <value>Tárgy: {0}
+
+{1}
+
+Kérjük, ne válaszoljon erre az e-mailre.</value>
+  </data>
+  <data name="PortalLinks.Text" xml:space="preserve">
+    <value>Portál linkek</value>
+  </data>
+  <data name="LogClicks.Text" xml:space="preserve">
+    <value>Minden kattintásnál naplózza a felhasználót, a dátumot és az időt</value>
+  </data>
+  <data name="TrackClicks.Text" xml:space="preserve">
+    <value>Kövesse nyomon, hányszor kattintottak erre a linkre</value>
+  </data>
+  <data name="ApplicationUpgrades.Text" xml:space="preserve">
+    <value>Alkalmazásfrissítések</value>
+  </data>
+  <data name="GeneralUpgrades.Text" xml:space="preserve">
+    <value>Általános frissítések végrehajtása</value>
+  </data>
+  <data name="ExecutingScript.Text" xml:space="preserve">
+    <value>Script végrehajtása</value>
+  </data>
+  <data name="LogStart.Text" xml:space="preserve">
+    <value>Kezdés</value>
+  </data>
+  <data name="LogEnd.Text" xml:space="preserve">
+    <value>Vége</value>
+  </data>
+  <data name="ActivatingLicense.Text" xml:space="preserve">
+    <value>License aktiválása</value>
+  </data>
+  <data name="ModulePermissions.Action" xml:space="preserve">
+    <value>Engedélyek</value>
+  </data>
+  <data name="MoveToPane.Action" xml:space="preserve">
+    <value>Címzett: {0}</value>
+  </data>
+  <data name="DropModuleTarget.Text" xml:space="preserve">
+    <value>Dobja ide a modult</value>
+  </data>
+  <data name="DragModuleHint.Text" xml:space="preserve">
+    <value>Húzza ezt a modult egy új helyre</value>
+  </data>
+  <data name="DraggingHintText.Text" xml:space="preserve">
+    <value>Vigye az egeret egy ejtőzóna fölé.</value>
+  </data>
+  <data name="DropModuleHint.Text" xml:space="preserve">
+    <value>Engedje fel az egérgombot, hogy ide dobja a modult.</value>
+  </data>
+  <data name="//AboutUs//StyleGuide.String" xml:space="preserve">
+    <value>Stílus útmutató</value>
+  </data>
+  <data name="//ContactUs.String" xml:space="preserve">
+    <value>Kapcsolat</value>
+  </data>
+  <data name="//Admin//FileManagement.String" xml:space="preserve">
+    <value>Fájlkezelés</value>
+  </data>
+  <data name="CustomUrlPathCleaned.Error" xml:space="preserve">
+    <value>A megadott oldal URL-je olyan karaktereket tartalmaz, amelyek nem használhatók az URL-ben, vagy illegális karakterek egy URL-hez.   Ezeket a karaktereket eltávolítottuk.  Kattintson ismét a 'Frissítés' gombra a módosított URL elfogadásához.&lt;br&gt;[MEGJEGYZÉS: Az illegális karakterek listája a következő: &lt;&gt;\?:&amp;=+|%# ]</value>
+  </data>
+  <data name="UrlPathNotUnique.Error" xml:space="preserve">
+    <value>A beküldött URL nem érhető el.  Ha el kívánja fogadni a javasolt alternatívát, kattintson a Mentés gombra.</value>
+  </data>
+  <data name="EMAIL_MESSAGING_DISPATCH_BODY.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="https://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+    &lt;style type="text/css"&gt;
+            /* Reset Styles */
+        html, body{height:100%;width:100%;}
+        body{
+            margin:0; padding:0;
+            font-family:sans-serif;
+            font-size:0.83em;
+            color:#333;
+        }
+        img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+        table td{border-collapse:collapse;}
+        p{margin: 0 0 1.6em 0;}
+        a{color:#417CD3;}
+        #backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+        body{ background-color:#fafafa; }
+
+        #templateContainer{
+            border: 1px solid #eeeeee;
+            box-shadow: 0px 0px 3px 0px #eee;
+        }
+
+            /* Pre Header Styles */
+        .preheaderContent{
+            padding:15px 0 5px 0;
+            font-size:0.9em;
+            color:#999;
+        }
+        .headerContent {background-color:#bbb;}
+        .headerContent a{display:block;}
+        .headerContent img{ margin-bottom:0;}
+
+            /* Sub Header Styles */
+        #templateSubHeader{ color:#ffffff; }
+        #templateSubHeader td{ padding:5px 20px; }
+
+            /* Template Footer Styles */
+        .footerContent table td{
+            padding-top:20px;
+            border-top:1px solid #ddd;
+            font-size:0.8em;
+        }
+
+            /* Body Template Footer Styles */
+        #bodyTemplateFooter{
+            padding:15px 0 5px 0;
+            font-size:0.9em;
+            color:#999;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0"&gt;
+&lt;table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%" id="backgroundTable"&gt;
+    &lt;tr&gt;
+        &lt;td align="center" valign="top"&gt;
+            &lt;!-- // Begin Template Preheader \\ --&gt;
+            &lt;table border="0" cellpadding="0" cellspacing="0" id="templatePreheader" width="600"&gt;
+                &lt;tr align="right"&gt;
+                    &lt;td valign="top" class="preheaderContent" style="border-top:5px solid #417CD3;"&gt;
+
+                        &lt;!-- // Begin Module: Standard Preheader \ --&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" &gt;
+                            &lt;tr&gt;
+                                &lt;td align="right"&gt;
+                                    &lt;p&gt;Problem viewing email? &lt;a href="[NOTIFICATIONURL]"&gt;&lt;span&gt;Click here to view online.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Module: Standard Preheader \ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;!-- // End Template Preheader \\ --&gt;
+            &lt;!-- // Begin Template body \\ --&gt;
+            &lt;table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="border:1px solid #eeeeee; " &gt;
+                &lt;tr &gt;
+                    &lt;td align="center" valign="top"&gt;
+                        &lt;!-- // Begin Template Header \\ --&gt;
+                        &lt;table border="0" cellpadding="30" cellspacing="0" width="600" id="templateHeader"&gt;
+                            &lt;tr&gt;
+                                &lt;td class="headerContent"&gt;
+                                    &lt;a href="[SITEURL]"&gt;
+                                        &lt;!--&lt;img src="[LOGOURL]" style="max-width:600px;" id="headerImage campaign-icon" /&gt;--&gt;
+                                        &lt;img src="[LOGOURL]" style="max-width:600px;" id="headerImage campaign-icon" width="200" /&gt;
+                                    &lt;/a&gt;
+
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Template Header \\ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr &gt;
+                    &lt;td align="center" valign="top"&gt;
+                        &lt;!-- // Begin Template Sub Header \\ --&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" width="600" id="templateSubHeader"&gt;
+                            &lt;tr&gt;
+                                &lt;td class="subHeaderContent" bgcolor="#417CD3" width="66%" align="left"&gt;
+                                    &lt;h2 style="color:#fff; font-weight:100; font-size:24px;"&gt;Notifications&lt;/h2&gt;
+                                &lt;/td&gt;&lt;!--close subHeaderContent--&gt;
+                                &lt;td width="33%" bgcolor="#417CD3" align="right"&gt;
+                                    &lt;p style="color:#fff;"&gt;&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Template Sub Header \\ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center" valign="top" bgcolor="#ffffff"&gt;
+                        &lt;!-- // Begin Template Body \\ --&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody"&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" class="bodyContent"&gt;
+                                    &lt;!-- // Begin Module: Standard Content \\ --&gt;
+                                    &lt;table border="0" cellpadding="30" cellspacing="0" width="100%"&gt;
+                                        &lt;tr&gt;
+                                            &lt;td valign="top"&gt;
+                                                [MESSAGEBODY]
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/table&gt;
+                                    &lt;!-- // End Module: Standard Content \\ --&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Template Body \\ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center" valign="top"&gt;
+                        &lt;table border="0" cellpadding="30" cellspacing="0" width="600" id="templateFooter"&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" class="footerContent"&gt;
+                                    &lt;table border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+                                        &lt;tr&gt;
+                                            &lt;td align="center"&gt;
+                                                &lt;a href="[UNSUBSCRIBEURL]" &gt; Manage your Subscriptions&lt;/a&gt; &amp;nbsp; |  &amp;nbsp;&lt;a href="[NOTIFICATIONURL]" &gt; View online&lt;/a&gt;
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/table&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;&lt;!-- // End Template Body \\ --&gt;
+            &lt;!-- // Begin Template footer \\ --&gt;
+            &lt;table border="0" cellpadding="0" cellspacing="0" id="bodyTemplateFooter" width="600"&gt;
+                &lt;tr&gt;
+                    &lt;td valign="top" class="bodyFooterContent"&gt;
+
+                        &lt;!-- // Begin Module: Standard Preheader \ --&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" align="center" &gt;
+
+                            &lt;tr&gt;
+                                &lt;td align="center"&gt;
+                                    &lt;p&gt;Copyright [YEAR] &lt;a href="[SITEURL]"&gt;[PORTALNAME]&lt;/a&gt; All rights reserved.&lt;/p&gt;
+                                    &lt;p&gt;If you wish to no longer receive emails in the future, please &lt;a href="[UNSUBSCRIBEURL]"&gt;unsubscribe&lt;/a&gt; here.&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;!-- // End Module: Standard Preheader \ --&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;!-- // End Template footer \\ --&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;&lt;!-- wrapper table --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="EMAIL_MESSAGING_DISPATCH_ITEM.Text" xml:space="preserve">
+    <value>&lt;div style="width:100%;"&gt;&lt;h5&gt;[TITLE]&lt;/h5&gt;&lt;table width="600" border="0" cellpadding="0" cellspacing="0" class="contenttable" style="background:#fafafa;"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            &lt;table width="80" border="0" cellspacing="0" cellpadding="8" align="left"&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;a href="[PROFILEURL]"&gt;&lt;img src="[PROFILEPICURL]" /&gt;&lt;/a&gt;&lt;br/&gt;[DISPLAYNAME]&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;table width="350" border="0" cellspacing="0" cellpadding="8" align="left"&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;[CONTENT][FRIENDREQUESTACTIONS][FOLLOWREQUESTACTIONS]&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="EMAIL_PASSWORD_UPDATED_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Jelszava a [Portal:PortalName] oldalon megváltozott.
+
+Kérjük, lépjen kapcsolatba a webhely adminisztrátorával a következő e-mail címen - [Portal:Email]
+
+Őszintén,
+[Portál:Portálnév]</value>
+  </data>
+  <data name="EMAIL_PASSWORD_UPDATED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Jelszó frissítve</value>
+  </data>
+  <data name="//Host//FileManagement.String" xml:space="preserve">
+    <value>Fájlkezelés</value>
+  </data>
+  <data name="AspNetHostingPermission.Text" xml:space="preserve">
+    <value>Ehhez a bővítményhez teljes bizalom szükséges.</value>
+  </data>
+  <data name="ReflectionPermission.Text" xml:space="preserve">
+    <value>Ehhez a bővítményhez tükrözési engedély szükséges.</value>
+  </data>
+  <data name="WebPermission.Text" xml:space="preserve">
+    <value>Ehhez a bővítményhez webes engedély szükséges.</value>
+  </data>
+  <data name="EMAIL_SOCIAL_FRIENDREQUESTACTIONS.Text" xml:space="preserve">
+    <value>&lt;p&gt;&lt;a href="{0}"&gt;Elfogadás&lt;/a&gt; | &lt;a href="{1}"&gt;Profil megtekintése&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="EMAIL_SOCIAL_FOLLOWREQUESTACTIONS.Text" xml:space="preserve">
+    <value>&lt;p&gt;&lt;a href="{0}"&gt;Visszakövetés&lt;/a&gt; | &lt;a href="{1}"&gt;Profil megtekintése&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="MESSAGE_USERNAME_CHANGED_INSTRUCTIONS.Text" xml:space="preserve">
+    <value>Kérjük, erősítse meg e-mail címének módosítását jelszó újbóli megadásával.</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Jelszó-visszaállítási tokent kért a [Portal:PortalName] webhelyről, de fiókja jóváhagyásra vár.
+A [Portal:PortalName] adminisztrátora értesítést kapott felülvizsgálatra, és fiókja jóváhagyása esetén újabb jelszó-visszaállítási e-mailt küld.
+
+Őszintén,
+[Portál:Portálnév]
+
+*Megjegyzés: Ha nem kért jelszó-visszaállítási tokent, kérjük, hagyja figyelmen kívül ezt az üzenetet.</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Jelszó emlékeztető</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_ADMINISTRATOR_BODY.Text" xml:space="preserve">
+    <value>A következő felhasználó jelszó-visszaállítási tokent kért a [Portal:PortalName] webhelyről, de a felhasználói fiók jóváhagyásra vár.
+Felhasználónév: [Felhasználó:Felhasználónév]
+Megjelenítési név: [User:DisplayName]
+
+A felhasználó ellenőrzése után, ha a fiók engedélyezett, küldjön újra egy jelszó-visszaállítási e-mailt.</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_USER_ISNOT_APPROVED_ADMINISTRATOR_SUBJECT.Text" xml:space="preserve">
+    <value>[Portal:PortalName] Jelszó-emlékeztető kérve a nem jóváhagyott felhasználóhoz [Felhasználó:Felhasználónév]</value>
+  </data>
+  <data name="503.Error" xml:space="preserve">
+    <value>{0} - 503 A szolgáltatás nem elérhető</value>
+  </data>
+  <data name="NoSitesForThisInstallation.Error" xml:space="preserve">
+    <value>Jelenleg nincs webhely ehhez a telepítéshez.</value>
+  </data>
+  <data name="SiteAccessedWhileInstallationWasInProgress.Error" xml:space="preserve">
+    <value>A webhelyet a telepítés/frissítés közben érték el.</value>
+  </data>
+  <data name="ThereIsAInstallationCurrentlyInProgress.Error" xml:space="preserve">
+    <value>Jelenleg egy telepítés van folyamatban. Kérjük, próbálja újra később.</value>
+  </data>
+  <data name="EMAIL_USER_UNAUTHORIZED_BODY.Text" xml:space="preserve">
+    <value>Kedves [User:DisplayName]!
+
+Az Ön [Portal:PortalName] fiókja nem engedélyezett.
+
+Webhely címe: [Portál:URL]
+Felhasználónév: [Felhasználó:Felhasználónév]
+
+Ha bármilyen kérdése van, forduljon bizalommal az adminisztrátorhoz a [Portal:Email] címen
+
+Őszintén,
+[Portál:Portálnév]</value>
+  </data>
+  <data name="EMAIL_USER_UNAUTHORIZED_SUBJECT.Text" xml:space="preserve">
+    <value>Your account has been un-authorized for [Portal:URL]</value>
+  </data>
+  <data name="DefaultStopwordGroup.Text" xml:space="preserve">
+    <value>és,vannak,hanem,mert,nem,olyan,hogy,az,az,akkor,ott,ezek,ezek,voltak,val</value>
+  </data>
+  <data name="DefaultSynonymGroup.Text" xml:space="preserve">
+    <value>dnn,dotnetnuke</value>
+  </data>
+  <data name="cc_dismiss.Text" xml:space="preserve">
+    <value>Megvan!</value>
+  </data>
+  <data name="cc_link.Text" xml:space="preserve">
+    <value>További információ</value>
+  </data>
+  <data name="cc_message.Text" xml:space="preserve">
+    <value>Ez a weboldal cookie-kat használ annak érdekében, hogy a legjobb élményt nyújthassa webhelyünkön.</value>
+  </data>
+</root>
